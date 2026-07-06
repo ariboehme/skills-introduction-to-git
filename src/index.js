@@ -45,7 +45,7 @@ let dropInterval = 1000;
 let lastTime = 0;
 let targetPattern = null;
 
-// Initialize game
+// Initialize game - Inicializa Jogo
 function init() {
   canvas = document.getElementById("gameCanvas");
   ctx = canvas.getContext("2d");
@@ -87,7 +87,7 @@ function gameLoop(time = 0) {
   requestAnimationFrame(gameLoop);
 }
 
-// Draw everything
+// Draw everything - Desenha Tudo
 function draw() {
   // Clear canvas
   ctx.fillStyle = COLORS[0];
